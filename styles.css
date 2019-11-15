@@ -1,0 +1,85 @@
+
+@import "compass/css3";
+
+@-webkit-keyframes fill {
+
+	0%   {-webkit-text-fill-color: #cf6979;}
+	25%  {-webkit-text-fill-color: #03adc6;}
+	50%  {-webkit-text-fill-color: #bb86fc;}
+	100% {-webkit-text-fill-color: #6200ee;}
+
+	0%   {background-color: lightblue;}
+	25%  {background-color: lightyellow;}
+	50%  {background-color: lightgreen;}
+	100% {background-color: pink;}
+}
+body {
+	background-color: #303030;
+
+
+}
+table{
+	-webkit-text-fill-color:#03adc6;
+	table-layout: fixed ;
+	width: 44% ;
+	align = center;
+	margin: auto;
+}
+td,th{
+	text-fill
+	table-layout: fixed ;
+	width: 100% ;
+	border: 1px solid grey;
+	align center;
+	margin: auto;
+	text-align: center;
+}
+.title{
+	font-size: 50px;
+	-webkit-text-stroke: 3px darkgrey;
+	-webkit-animation: fill 10s infinite alternate;
+	-webkit-text-stroke: 2px black;
+
+	color: White;
+	align center;
+	margin: auto;
+	text-align: center;
+}
+.login{
+	font-size: 20px;
+	color: #ff7597;
+	align center;
+	margin: auto;
+	text-align: center;
+}
+.warning{
+	font-size: 10px;
+	color: #ff0266;
+	align center;
+	margin: auto;
+	text-align: center;
+}
+.dice{
+	border: 0px solid white;
+	background-color: #303030;
+}
+.rollingrow{
+	background-color: #303030;
+	border: 1px solid grey;
+}
+.Upper_Section{
+	background-color: #303030;
+	border: 1px solid grey;
+}
+.Upper_Score{
+	background-color: #303030;
+	border: 1px solid grey;
+}
+.Lower_Section{
+	background-color: #303030;
+	border: 1px solid grey;
+}
+.Final_Score{
+	background-color: #303030;
+	border: 1px solid grey;
+}
